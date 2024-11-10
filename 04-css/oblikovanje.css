@@ -18,7 +18,42 @@ body {
     /*  Obojestranska poravnava besedila    */
     text-align: justify;
 }
+h1 {
+        color: #330066;
+      }
+h2 {
+    margin-top: 2em;
+    border-top: 1px #AAAAAA solid;
+    padding-top: 0.5em;
 
+}
+#uvod {
+       padding: 2em;
+       background-color: rgb(51,0,102,0.1);
+        }
+.slika {
+    font-size: 0.9em;
+    width: 40%;
+    text-align: left;
+    float: right;
+    margin-left: 2em;
+    }
+.slika img {
+     width: 100%;
+     height: auto;
+     border-radius: 50%;
+         }
+.slika p:last-child {
+    font-size: .8em;
+    margin-top: -15px;
+    padding-top: 0.1%;
+    border-top: 0.1%;
+}
+.slika p:first-child {
+    margin-bottom: 0.1%;
+    padding-bottom: 0.1%;
+    border-bottom: 0.1%;
+}
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
 a { text-decoration: none; outline:none; }
 /*  Spremenimo barve povezav: neobiskanih, obiskanih, pod miško in aktivnih */
@@ -26,8 +61,10 @@ a:link { color:#cc0000; }
 a:visited { color:#660066; }
 a:hover { color:#660066; }
 a:active { color:#990000; outline:none; }
-
+a::before {
+    content: '🔗';
+  }
 code {
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mboono", Menlo, Courier, monospace;
     color: #009966;
 }
