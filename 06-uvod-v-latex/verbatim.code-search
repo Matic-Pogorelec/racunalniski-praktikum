@@ -1,0 +1,58 @@
+# Query: verbatim
+# ContextLines: 1
+
+14 results - 2 files
+
+urnik.tex:
+   72  
+   73: % Spodaj je primer vsebine XML datoteke, ki ga označite z okoljem `verbatim`.
+   74  % To okolje ohranja presledke na začetku vrstic, prelome vrstic, ter prikaže odstavek, 
+   75  % kot da je napisan na pisalni stroj.
+   76: % V tej datoteki so še trije načrti postopkov, ki jih tudi označite z okoljem `verbatim`.
+   77  % Namig: pomagajte si z iskanjem in zamenjavo komentarjev, kot so v spodnjem primeru.
+   78  
+   79: % začetek okolja verbatim
+   80: \begin{verbatim}
+   81  <profesor>
+
+   88  </profesor>
+   89: \end{verbatim}
+   90: % konec okolja verbatim
+   91  
+
+  306  
+  307: % začetek okolja verbatim
+  \begin{verbatim}
+  308  (1) Sprehod po vseh predmetih.
+
+  316  }
+  \end{verbatim}
+  317: % konec okolja verbatim
+  318  
+
+  389  
+  390: % začetek okolja verbatim
+  \begin{verbatim}
+  391  (1) Izvajaj dokler...
+
+  396  }
+  \end{verbatim}
+  397: % konec okolja verbatim
+  398  
+
+  473  
+  474: % začetek okolja verbatim
+  \begin{verbatim}
+  475  (1) r = rešitev, dobljena s požrešno metodo.
+
+  480  }
+  \end{verbatim}
+  481: % začetek okolja verbatims
+  482  
+
+C:\Users\pogor\Matty_mapa\racunalniski praktikum\racunalniski-praktikum\latex-pregled\1-osnove.tex:
+  279  %
+  280: \begin{verbatim}
+  281    # $ % & \ ^ _ { } ~
+  282: \end{verbatim}
+  283  %
