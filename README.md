@@ -2,7 +2,7 @@
 # Računalniški praktikum
 <!-- To je komentar, ki bo na prikazanem Markdown-u skrit. 
      V tem besedilu so v komentarjih napisana navodila za reševanje. -->
-
+https://matic-pogorelec.github.io/
 <!-- 2. nivojski razdelek -->
 ## Bližnjice na tipkovnici
 
